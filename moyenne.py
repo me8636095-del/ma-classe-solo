@@ -1,4 +1,4 @@
-"""Calcul de la moyenne pondérée d'un élève."""
+""" fonction HWCalcul de la moyenne pondérée d'un élève."""
 import csv
 
 
@@ -23,4 +23,5 @@ def lire_notes(chemin):
 
 if __name__ == "__main__":
     notes = lire_notes("donnees/notes.csv")
-    print("Moyenne :", moyenne_ponderee(notes))
+     print("Moyenne :", moyenne_ponderee(notes))"""
+   print("afficher la moyenne ")
